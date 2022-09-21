@@ -11,7 +11,11 @@ app.use(morgan('combined'))
 //! Template Engine:
 app.engine('hbs', engine({extname: '.hbs'})); //? extname: đuôi file home, info...
 app.set('view engine', 'hbs');
+<<<<<<< HEAD
 app.set('views', path.join(__dirname, 'resources/views'));
+=======
+app.set('views', path.join(__dirname, './resources/views'));
+>>>>>>> f980ac815c73f5067fa17fa9182fc7b051ab636c
 //! Method
 
 //? truy cập vào để lấy dữ liệu của home với đường dẫn là : http://localhost:3000/
